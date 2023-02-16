@@ -88,3 +88,79 @@ depending on how you partition your code
 
 in which we are going to see all the concepts in action
 
+
+
+
+******************************
+
+in C sharp we have solution
+
+in a very simple application we have only one solution and one project
+
+now let see what is happening here
+
+so currently under solution we have one project
+under properties 
+
+we have a file here called assemblies
+
+whenever we compile an application we are gonna get an executable
+
+under list of references
+
+you will see the any number of assemblies that this solution is using
+
+app.config is and xml where we store configuration for this application
+
+sometimes connection strings in a database
+
+or you may want to have some settings in your applications
+
+
+in program.cs 
+
+you see a bunch of using statements
+
+
+so since our project is called helloworld, when you write code in this namespace
+
+
+
+so if you want to use a class that is define in different namespace, 
+
+all we need to do is import our code, 
+
+so here we have these basic classes
+
+system.threading is used to build multithreading application
+
+in this we are create a very simple application and not gonna use any of the namespaces here
+
+as we create a program in visual studio
+
+it creates a new class called program
+
+we have a function called main
+
+and this is the entry point to our app
+
+so when we execute app
+
+CLR executes our main method and then everything kicks off 
+
+this method is declared as static
+
+what we have is input or output
+
+note that params are optional
+
+curly stands for block of code
+
+methods are indicated by purple cube
+
+beep is used to play beep sound
+
+now if take a look at system at the top we will see that its hightlighted
+
+you can press alt + enter
+
