@@ -1,0 +1,28 @@
+﻿7 C sharp vs Dot net
+c sharp is a programmin language
+.net is a framework for building applications on Windows
+there are diff lang that can target .dotnet framework
+F sharp and vb .net
+
+
+.net framework consists of two components
+CLR
+class Library
+
+before c sharp we had two families in C
+
+the compiler tranlates our code into a native code
+
+so if a took a application of built for 80 86 architecture lang
+
+that will not run on linux as the version is different
+
+in java the code is translated into bytecode
+
+now we need something that compiles our IL code to the native code
+
+that is the job of CLR
+
+and this process is called JIT
+
+so with this you dont have to worry about the machines on which we will be runing our code
