@@ -26,3 +26,65 @@ that is the job of CLR
 and this process is called JIT
 
 so with this you dont have to worry about the machines on which we will be runing our code
+
+
+
+
+////// Architeture of .Net Applications
+application is made of building blocks called classes
+these collaborate with each other in runtime
+so as a result the application provides some functionality
+
+class
+is just a container 
+consisting of data and methods
+
+Car
+make
+Model
+Color
+
+Start()
+Move()
+
+in real world all classes have different responsibility
+
+for ex getting the data from the user
+
+--name spaces
+
+now as there are no of classes  
+
+we need a way to organise these classes
+
+that is where we use the namespace
+
+namespace is a container for related classes
+
+for ex we have namespace for working with data like databases
+
+we also have namespaces for working with graphics and images
+
+
+
+now in real world as these app grow we need a diff way of partitioning an application and 
+
+and that is where we use assembly
+
+an assembly is a container for related namespaces
+
+physically its a file on the disk
+
+which is exec 
+and it is dll
+
+dynamically linked library
+
+so when you compile and application
+
+the compiler builds one or more assembly
+
+depending on how you partition your code
+
+in which we are going to see all the concepts in action
+
